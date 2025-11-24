@@ -1,13 +1,12 @@
 [project]
 name = "mcp-server"
 version = "0.1.0"
-description = "Expense Tracker MCP"
-readme = "README.md"
+description = "MCP Server using PostgreSQL"
 requires-python = ">=3.12,<3.13"
 
 dependencies = [
-    "fastmcp",
-    "psycopg[binary]",   # VERY IMPORTANT
+    "fastmcp>=2.13.0",
+    "psycopg>=3.1.12",
 ]
 
 [build-system]
